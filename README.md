@@ -6,6 +6,8 @@
 
 ---
 
+**Documentation**: <a href="https://async-iterator.lpthong90.dev" target="_blank">https://async-iterator.lpthong90.dev</a>
+
 **Source  Code**: <a href="https://github.com/lpthong90/async-iterator" target="_blank">https://github.com/lpthong90/async-iterator</a>
 
 ---
@@ -16,8 +18,6 @@ The package helps to use async iterator without take care about asyncio's taskgr
 ```console
 $ pip install async-iterator
 ```
-
-</div>
 
 ## Basic Usage
 
@@ -59,6 +59,14 @@ if __name__ == "__main__":
 
 ```
 
+Output
+```
+2024-01-06 00:58:54
+async [2, 3, 4]
+2024-01-06 00:58:56
+sync [2, 3, 4]
+2024-01-06 00:59:02
+```
 
 
 
