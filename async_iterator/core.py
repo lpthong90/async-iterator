@@ -9,7 +9,7 @@ T = TypeVar("T")
 
 
 def aiter(
-    _func: Callable[[T_PARAM], Awaitable[T_RETURN]]
+    _func: Callable[[T_PARAM], Awaitable[T_RETURN]],
 ) -> Callable[[Sequence[T_PARAM]], Awaitable[Sequence[T_RETURN]]]:
     @functools.wraps(_func)
     async def wrapper(iterator: Sequence[T_PARAM]) -> Sequence[T_RETURN]:
@@ -27,7 +27,7 @@ def aiter(
 
 
 def siter(
-    _func: Callable[[T_PARAM], T_RETURN]
+    _func: Callable[[T_PARAM], T_RETURN],
 ) -> Callable[[Sequence[T_PARAM]], Sequence[T_RETURN]]:
     @functools.wraps(_func)
     def wrapper(iterator: Sequence[T_PARAM]) -> Sequence[T_RETURN]:
