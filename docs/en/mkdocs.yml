@@ -21,6 +21,13 @@ markdown_extensions:
     alternate_style: true
 - mdx_include
 
+nav:
+- async-iterator: index.md
+- Tutorial - User Guide:
+  - tutorials/index.md
+  - tutorials/sqlalchemy.md
+- Help async-iterator - Get Help: help.md
+
 extra_css:
   - css/termynal.css
   - css/custom.css

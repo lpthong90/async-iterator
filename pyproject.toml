@@ -20,6 +20,7 @@ mkdocs-material = "^8.1.4"
 mdx-include = "^1.4.1"
 coverage = {extras = ["toml"], version = "^6.2"}
 ruff = "^0.1.11"
+sqlalchemy = "^2.0.25"
 
 
 [[tool.poetry.source]]
