@@ -1,7 +1,7 @@
 # async-iterator
 
 <p align="center">
-    <em>Easy way to use async iterator without take care about asyncio’s taskgroup.</em>
+    <em>Cách đơn giản để sử dụng async iterator mà không cần quan tâm về TaskGroup của asyncio.</em>
 </p>
 
 <p align="center">
@@ -27,15 +27,15 @@
 
 ---
 
-**Documentation**: <a href="https://async-iterator.lpthong90.dev" target="_blank">https://async-iterator.lpthong90.dev</a>
+**Tài Liệu**: <a href="https://async-iterator.lpthong90.dev" target="_blank">https://async-iterator.lpthong90.dev</a>
 
-**Source  Code**: <a href="https://github.com/lpthong90/async-iterator" target="_blank">https://github.com/lpthong90/async-iterator</a>
+**Mã Nguồn**: <a href="https://github.com/lpthong90/async-iterator" target="_blank">https://github.com/lpthong90/async-iterator</a>
 
 ---
 
-The package helps to use async iterator without take care about asyncio's taskgroup.
+Thư viện giúp cho việc sử dụng async iterator mà không cần quan tâm về TaskGroup của asyncio.
 
-## Installation
+## Cài Đặt
 <div class="termy">
 
 ```console
@@ -46,7 +46,7 @@ Successfully installed async-iterator
 
 </div>
 
-## Basic Usage
+## Cách Dùng
 
 ```Python
 import asyncio
@@ -86,7 +86,7 @@ if __name__ == "__main__":
 
 ```
 
-Output
+Kết quả
 ```
 2024-01-06 00:58:54
 async [2, 3, 4]
@@ -102,4 +102,4 @@ sync [2, 3, 4]
 
 ## License
 
-This project is licensed under the terms of the [MIT license](https://github.com/lpthong90/async-iterator/blob/main/LICENSE).
+Dự án được cấp license là [MIT license](https://github.com/lpthong90/async-iterator/blob/main/LICENSE).
