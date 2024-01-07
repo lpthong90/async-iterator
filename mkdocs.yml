@@ -1,0 +1,39 @@
+site_name: async-iterator
+site_description: Easy way to use async iterator without take care about asyncio’s taskgroup.
+site_url: https://async-iterator.lpthong90.dev/
+theme:
+  name: material
+
+markdown_extensions:
+- toc:
+    permalink: true
+- markdown.extensions.codehilite:
+    guess_lang: false
+- admonition
+- codehilite
+- extra
+- pymdownx.superfences:
+    custom_fences:
+    - name: mermaid
+      class: mermaid
+      format: !!python/name:pymdownx.superfences.fence_code_format ''
+- pymdownx.tabbed:
+    alternate_style: true
+- mdx_include
+
+extra_css:
+  - css/termynal.css
+  - css/custom.css
+
+extra_javascript:
+  - js/termynal.js
+  - js/custom.js
+
+extra:
+  social:
+  - icon: fontawesome/brands/github-alt
+    link: https://github.com/lpthong90/async-iterator
+  - icon: fontawesome/brands/discord
+    link: https://www.linkedin.com/in/lpthong90
+  - icon: fontawesome/solid/globe
+    link: https://lpthong90.dev
