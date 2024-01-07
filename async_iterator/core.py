@@ -1,12 +1,7 @@
 import functools
-import sys
+from typing import Awaitable, Callable, Sequence, TypeVar
 
 import anyio
-
-if sys.version_info >= (3, 10):
-    from typing import Awaitable, Callable, Sequence, TypeVar
-else:
-    from typing_extensions import Awaitable, Callable, Sequence, TypeVar
 
 T_PARAM = TypeVar("T_PARAM")
 T_RETURN = TypeVar("T_RETURN")
