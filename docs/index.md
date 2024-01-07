@@ -4,6 +4,27 @@
     <em>Easy way to use async iterator without take care about asyncio’s taskgroup.</em>
 </p>
 
+<p align="center">
+    <a href="https://github.com/lpthong90/async-iterator/actions?query=workflow%3ATest" target="_blank">
+        <img src="https://github.com/lpthong90/async-iterator/workflows/Test/badge.svg" alt="Test">
+    </a>
+    <a href="https://github.com/lpthong90/async-iterator/actions?query=workflow%3APublish" target="_blank">
+        <img src="https://github.com/lpthong90/async-iterator/workflows/Publish/badge.svg" alt="Publish">
+    </a>
+    <a href="https://coverage-badge.samuelcolvin.workers.dev/redirect/lpthong90/async-iterator" target="_blank">
+        <img src="https://coverage-badge.samuelcolvin.workers.dev/lpthong90/async-iterator.svg" alt="Coverage">
+    <a href="https://pypi.org/project/async-iterator" target="_blank">
+        <img src="https://img.shields.io/pypi/v/async-iterator?color=%2334D058&label=pypi%20package" alt="Package version">
+    </a>
+    <a href="https://pypi.org/project/async-iterator" target="_blank">
+        <img alt="Downloads" src="https://img.shields.io/pypi/dm/async-iterator?color=%2334D058" />
+    </a>
+</p>
+<p align="center">
+    <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/async-iterator">
+</p>
+
+
 ---
 
 **Documentation**: <a href="https://async-iterator.lpthong90.dev" target="_blank">https://async-iterator.lpthong90.dev</a>
